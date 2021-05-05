@@ -1,5 +1,7 @@
 import scrapy
+import pymongo
 from ..items import QuotestutorialItem
+
 
 class QuoteSpider(scrapy.Spider):
     name = 'quotes'
