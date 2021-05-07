@@ -1,5 +1,5 @@
 import scrapy
-import pymongo
+# import pymongo
 from ..items import QuotestutorialItem
 
 
