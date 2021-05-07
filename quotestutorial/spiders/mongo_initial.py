@@ -6,6 +6,9 @@ mydb = myclient["mydatabase"]
 
 mycol = mydb["quotes"]
 
-mydict = { "quotes": "John", "author": "this is a trial quote" }
+mydict = [
+        { "quotes": "Eliza", "author": "this is a trial quote for many inserts to mongodb" },
+        { "quotes": "Dennis", "author": "this is a trial quote for many inserts to mongodb ver2" }
+    ]
 
-x = mycol.insert_one(mydict)
+x = mycol.insert_many(mydict)
