@@ -10,4 +10,3 @@ class QuotestutorialItem(scrapy.Item):
     # define the fields for your item here like:
     quotes = scrapy.Field()
     author = scrapy.Field()
-    # pass
